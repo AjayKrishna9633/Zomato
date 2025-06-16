@@ -162,10 +162,10 @@ h5{
     max-width: 18.333%;
 }
 .link-1{
-    height: 20px;
+    height: 40px;
 }
 .link-2{
-    height: 20px;
+    height: 40px;
 }
 .zomtext{
     font-size: .9em;
@@ -191,6 +191,7 @@ h5{
     justify-content: center;
     align-items: center;
     gap: 5px;
+    flex-direction: column;
    
 }
 .linkimg{
@@ -218,16 +219,23 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 background-position: center;
 
+
 }
+.logo{
+height: 40px;}
+
 .divimg {
     padding-top: 25%;
     padding-bottom: 5%;
     align-items: center;
+    justify-content: center;
+    
 }
 .logotext {
     font-size: 1.5rem;
     width: 80%;
-    padding-bottom: 5%;
+    padding-bottom: 25%;
+
 }
 .title {
     flex-direction: column;
